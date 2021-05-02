@@ -8,11 +8,11 @@ December 11, 2018
 
 ----------------------------------------------------------------------
 
-# README CONTENTS
+## README CONTENTS
 
-< Introduction
-< Installation
-< Code and Data Structures
+- Introduction
+- Installation
+- Code and Data Structures
 
 Introduction
 
