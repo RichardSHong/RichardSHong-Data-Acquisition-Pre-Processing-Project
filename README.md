@@ -30,28 +30,18 @@ newspaper
 nltk
 
 
-### Code and Data Structures (Katherine&#39;s note - this part not yet finished!)
+### Data Structures
 
 The code is designed to create separate files each time it runs:
 
-grss.json
+grss.json: This file contains the eight specified Google News categories and their accompanying RSS url.
 
-This file contains the eight specified Google News categories and their accompanying RSS url.
+articles.json: This file contains the news article
 
-articles.json
+keywords\_by\_type.json: This file contains keywords by type.
 
-This file contains the news article
+keywords.json : This file contains keywords.
 
-keywords\_by\_type.json
-
-This file contains keywords
-
-keywords.json
-
-This file contains…
-
-headlines.json
-
-This file contains…
+headlines.json: This file contains headlines.
 
 In order to maintain a continuous data acquisition stream, a script in the Chrontab is used to collect data hourly.
