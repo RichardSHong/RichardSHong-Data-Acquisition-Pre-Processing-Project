@@ -1,0 +1,3 @@
+44 * * * * /Users/RichardAndJeanne/anaconda3/bin/python3 /Users/RichardAndJeanne/2018FallTeamProject/get_hourly_info.py >> /Users/RichardAndJeanne/2018FallTeamProject/hourlyInfo.log 2>&1
+
+59 23 * * * /Users/RichardAndJeanne/anaconda3/bin/python3 /Users/RichardAndJeanne/2018FallTeamProject/CreateDailyInfo.py >> /Users/RichardAndJeanne/2018FallTeamProject/DailyInfo.log 2>&1
