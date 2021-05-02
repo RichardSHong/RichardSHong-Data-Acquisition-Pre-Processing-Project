@@ -32,16 +32,47 @@ nltk
 
 ### Data Structures
 
-The code is designed to create separate files each time it runs:
+We have 4 main outputs from this code:
 
-grss.json: This file contains the eight specified Google News categories and their accompanying RSS url.
+1. A dictionary of scraped news articles
+2. A list of the headlines of all news articles in dictionary
+3. A file of word counts per day
+4. A file of word counts nested within RSS feed per day
 
-articles.json: This file contains the news article
+In total, we have 16 files for a total of 164 MB of data:
 
-keywords\_by\_type.json: This file contains keywords by type.
+1. articles.json (151 MB)
+2. headlines.txt (1.97 MB)
 
-keywords.json : This file contains keywords.
+3 and 4. (between 1-300 KB)
 
-headlines.json: This file contains headlines.
+8DEC\_daily\_\_Keywords\_By\_Type\_Info.json
 
-In order to maintain a continuous data acquisition stream, a script in the Chrontab is used to collect data hourly.
+8DEC\_daily\_\_Keywords\_Info.json
+
+8DEC\_hourly\_keywords.json
+
+8DEC\_hourly\_keywords\_by\_type.json
+
+9DEC\_daily\_\_Keywords\_By\_Type\_Info.json
+
+9DEC\_daily\_\_Keywords\_Info.json
+
+9DEC\_hourly\_keywords.json
+
+9DEC\_hourly\_keywords\_by\_type.json
+
+10DEC\_daily\_\_Keywords\_By\_Type\_Info.json
+
+10DEC\_daily\_\_Keywords\_Info.json
+
+10DEC\_hourly\_keywords.json
+
+10DEC\_hourly\_keywords\_by\_type.json
+
+11DEC\_hourly\_keywords.json
+
+11DEC\_hourly\_keywords\_by\_type.json
+
+
+#### In order to maintain a continuous data acquisition stream, a script in the Chrontab is used to collect data hourly.
